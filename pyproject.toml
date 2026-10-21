@@ -1,0 +1,16 @@
+[project]
+name = "ryochan-evidence-ledger"
+version = "0.1.0"
+description = "Market-evidence interpreter and paper-trade agent with a hash-chained reasoning trail"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+ryochan = "ryochan.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["ryochan"]
